@@ -1,0 +1,21 @@
+#externo {
+
+}
+
+span + h1{
+    color: red;
+}
+
+h1 ~ p {
+    color: aqua;
+}
+
+.btn{
+    padding: 12px;
+    background-color: darkcyan;
+    border-radius: 12px;
+}
+
+.btn:hover{
+    
+}
