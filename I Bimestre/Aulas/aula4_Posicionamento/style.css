@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+#container{
+    height: 100vh;
+}
+
+.relativo{
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    position: relative;
+    bottom: 0%;
+    left: 40%;
+}
+
+.absoluto{
+    width: 200px;
+    height: 200px;
+    background: rgb(0, 255, 255);
+    position: absolute;
+    left: 40%;
+    top: 46%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixo{
+    width: 100px;
+    height: 100px;
+    background: #19c209;
+    position: fixed;
+    right: 88%;
+    bottom: 10%; 
+}
+
+.inline{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+}
+
+.inline-block{
+    background-color: black;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
