@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #fdf1e2;
+}
+
+#exemplos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+}
+
+form {
+    /* Ativa o Flexbox */
+    display: flex;
+
+    /* Organiza os elementos do formulário verticalmente */
+    flex-direction: column;
+
+    /* Define a largura do formulário como 200px */
+    width: 200px;
+
+    /* Cria um espaço de 12px entre os elementos internos */
+    gap: 12px;
+
+    /* Cria um espaço de 24px abaixo do formulário */
+    margin-bottom: 24px;
+}
