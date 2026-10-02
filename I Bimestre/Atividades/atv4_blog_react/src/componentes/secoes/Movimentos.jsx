@@ -1,3 +1,5 @@
+import Movimento from "../Movimento";
+
 function Movimentos() {
     return (
         <section id="movimentos">
@@ -22,71 +24,62 @@ function Movimentos() {
             </div>
 
             <div className="movimentosContainer">
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-rh-2.png"
-                        alt="Imagem movimento direito horário" />
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-rh-2.png"}
+                    movimento={"R"}
+                    descricao={"Right / Direita horário"}
+                />
 
-                    <p><b>R </b> - Right / Direita horário</p>
-                </article>
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-ra-2.png"}
+                    movimento={"R'"}
+                    descricao={"Right / Direita anti-horário"}
+                />
 
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-ra-2.png"
-                        alt="Imagem movimento direito anti-horário'" />
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br/wp-content/uploads/2020/05/movimento-cubo-magico-rd-2.png"}
+                    movimento={"R2"}
+                    descricao={"Right / Direita duplo"}
+                />
 
-                    <p><b>R' </b> - Right / Direita anti-horário</p>
-                </article>
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-lh-2.png"}
+                    movimento={"L"}
+                    descricao={"Left / Esquerda horário"}
+                />
+                
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-la-2.png"}
+                    movimento={"L'"}
+                    descricao={"Left / Esquerda anti-horário"}
+                />
 
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-rd-2.png"
-                        alt="Imagem movimento direito duas vezes" />
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-uh-2.png"}
+                    movimento={"U"}
+                    descricao={"Up / Topo horário"}
+                />
 
-                    <p><b>R2 </b> - Right / Direita duplo</p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-lh-2.png"
-                        alt="Imagem movimento esquerdo horário" />
-
-                    <p><b>L </b> - Left / Esquerda horário</p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-la-2.png"
-                        alt="Imagem movimento esquerdo anti-horário" />
-
-                    <p><b>L' </b> - Left / Esquerda anti-horário</p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-uh-2.png"
-                        alt="Imagem movimento topo horário" />
-
-                    <p><b>U </b> - Up / Topo horário</p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-dh.png"
-                        alt="Imagem movimento base horário" />
-
-                    <p><b>D </b> - Down / Base horário </p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-fh-2.png"
-                        alt="Imagem movimento face horário" />
-
-                    <p><b>F </b> - Front / Face horário </p>
-                </article>
-
-                <article>
-                    <img src="https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-bh-2.png"
-                        alt="Imagem movimento atrás horário" />
-
-                    <p><b>B </b> - Back / Atrás horário</p>
-                </article>
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-dh.png"}
+                    movimento={"D"}
+                    descricao={"Down / Base horário"}
+                />
+                
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-fh-2.png"}
+                    movimento={"F"}
+                    descricao={"Front / Face horário"}
+                />
+               
+                <Movimento
+                    imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/05/movimento-cubo-magico-bh-2.png"}
+                    movimento={"B"}
+                    descricao={"Back / Atrás horário"}
+                />
             </div>
         </section>
     );
 }
 
-explain default Movimentos;
+export default Movimentos;

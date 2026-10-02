@@ -6,14 +6,14 @@ import Article from "./componentes/Article";
 import Sidebar from "./componentes/Sidebar";
 import Footer from "./componentes/Footer";
 
-function App(){
+function App() {
 
-  const post = {
+  const props = {
     titulo: "Como Resolver o Cubo Mágico 3X3 | Método Básico",
     autor: "Daniel Werle",
     data: "05/09/2026",
     conteudo: "O método básico é a forma mais simples de se resolver o cubo mágico."
-  }
+  };
 
   return (
     <>
@@ -22,19 +22,14 @@ function App(){
       <Navigation />
 
       <main>
-          <Article 
-            titulo={post.titulo}
-            autor={post.autor}
-            data={post.data}
-            conteudo={post.conteudo}
-          />
+        <Article props={props} />
 
-          <Sidebar />
+        <Sidebar />
       </main>
 
-      <Footer/>
+      <Footer />
     </>
-  )
+  );
 }
 
 export default App;
