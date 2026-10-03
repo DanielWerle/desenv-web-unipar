@@ -7,7 +7,7 @@ import objetivoSeis from "../../imagens/objetivoSeis.png";
 import objetivoSete from "../../imagens/objetivoSete.png";
 
 import Objetivo from "../Objetivo";
-import EtapaTurorial from "../EtapaTutorial";
+import EtapaTutorial from "../EtapaTutorial";
 
 function Etapas() {
     return (
@@ -65,15 +65,15 @@ function Etapas() {
             <hr />
 
             <section className="tutorial">
-                <EtapaTurorial
+                <EtapaTutorial
                     titulo={"Etapa 1 - Margarida (Cruz Inicial) - Junto com a Cruz Branca"}
                     imagem={"https://cubovelocidade.com.br//wp-content/uploads/2020/07/metodo-basico-cubo-magico-01.png"}
                     alt={"Objetivo margarida"}
                     descricao={"Essa etapa é bem simples, só é necessário colocar as laterais brancas junto com o centro amarelo. Vale dizer que nessa etapa não é necessário uma fórmula, afinal são muitas possibilidades e acaba sendo mais fácil posicionar por conta própria, do que aprender possíveis fórmulas que talvez nunca vão acontecer."}
                     formula={"Não possui uma fórmula"}
                 />
-                
-                <EtapaTurorial
+
+                <EtapaTutorial
                     titulo={"Cruz Branca"}
                     imagem={objetivoUm}
                     alt={"Objetivo um"}
@@ -81,8 +81,8 @@ function Etapas() {
                     formula={"Não possui uma fórmula"}
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=tEcwn9G7XoHFA1F4&amp;start=174"}
                 />
-               
-                <EtapaTurorial
+
+                <EtapaTutorial
                     titulo={"Etapa 2 - Primeira Camada"}
                     imagem={objetivoDois}
                     alt={"Objetivo dois"}
@@ -90,18 +90,30 @@ function Etapas() {
                     formula={"Não possui uma fórmula"}
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=R9Nk9KVBQizJbPVu&amp;start=263"}
                 />
-                
-                <EtapaTurorial
+
+                <EtapaTutorial
                     titulo={"Etapa 3 - Segunda Camada"}
                     imagem={objetivoTres}
                     alt={"Objetivo tres"}
                     descricao={"Nesta etapa iremos montar a segunda camada, que se consiste nos lados do cubo, A partir daqui usaremos fórmulas para mover uma peça no seu devido lugar, Você irá posicionar a cor de mesmo centro juntos, e analisar para qual lado a segunda cor deve estar, na direita ou esquerda."}
-                    formula={`Caso a cor de cima seja para esquerda: ${<br />} U' L' U' L U ${<br />} Gire o Cubo Para Direita ${<br />} R U R' U'`}
-                    // formula={`Caso a cor de cima seja para direita: ${<br />} U R U R' U' ${<br />} Gire o Cubo Para Esquerda ${<br />} L' U' L U`}
+                    formula={<>
+                        Caso a cor de cima seja para esquerda: <br />
+                        U' L' U' L U <br />
+                        Gire o Cubo Para Direita <br />
+                        R U R' U'
+                    </>
+                    }
+                    formula2={<>
+                        Caso a cor de cima seja para direita: <br />
+                        U R U R' U' <br />
+                        Gire o Cubo Para Esquerda <br />
+                        L' U' L U
+                    </>
+                    }
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=3xTWm9Eo8Qld2fkS&amp;start=344"}
                 />
-                
-                <EtapaTurorial
+
+                <EtapaTutorial
                     titulo={"Etapa 4 - Cruz Amarela"}
                     imagem={objetivoQuatro}
                     alt={"Objetivo quatro"}
@@ -110,7 +122,7 @@ function Etapas() {
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=sv-1YyloewqHffWq&amp;start=432"}
                 />
 
-                <EtapaTurorial
+                <EtapaTutorial
                     titulo={"Etapa 5 - Resolver as Bordas da Terceira Camada"}
                     imagem={objetivoCinco}
                     alt={"Objetivo cinco"}
@@ -119,7 +131,7 @@ function Etapas() {
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=2hkVOn5V5OpxM2yo&amp;start=474"}
                 />
 
-                <EtapaTurorial
+                <EtapaTutorial
                     titulo={"Etapa 6 - Orientar os Cantos da Terceira Camada"}
                     imagem={objetivoSeis}
                     alt={"Objetivo seis"}
@@ -128,7 +140,7 @@ function Etapas() {
                     video={"https://www.youtube.com/embed/aJuUOG9FYlM?si=RqPqRM5B5R3QVsiF&amp;start=555"}
                 />
 
-                <EtapaTurorial
+                <EtapaTutorial
                     titulo={"Etapa 7 - Conclusão do Cubo"}
                     imagem={objetivoSete}
                     alt={"Objetivo sete"}

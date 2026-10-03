@@ -6,9 +6,9 @@ function EtapaTurorial({ titulo, imagem, alt, descricao, formula, formula2, vide
             <img src={imagem} alt={alt} />
             <p>{descricao}</p>
             <p className="formula">{formula}</p>
-            {/* {formula2 && (
-
-            )} */}
+            {formula2 && (
+                <p className="formula">{formula2}</p>
+            )}
             {video && (
                 <>
                     <p>Video Suporte:</p>

@@ -1,12 +1,28 @@
 function Sidebar() {
     return (
         <aside>
-            <h2>Posts relacionados</h2>
+            <h2>Neste post</h2>
 
             <ul>
-                <li>Como montar a cruz branca</li>
-                <li>Movimentos do cubo mágico</li>
-                <li>Algoritimos básicos</li>
+                <li>
+                    <a href="#introducao">Introdução</a>
+                </li>
+
+                <li>
+                    <a href="#pecas">Peças do cubo</a>
+                </li>
+
+                <li>
+                    <a href="#movimentos">Movimentos</a>
+                </li>
+
+                <li>
+                    <a href="#etapas">Etapas</a>
+                </li>
+
+                <li>
+                    <a href="#comentarios">Comentários</a>
+                </li>
             </ul>
         </aside>
     )
