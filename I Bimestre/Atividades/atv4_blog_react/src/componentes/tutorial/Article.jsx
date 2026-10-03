@@ -1,8 +1,8 @@
-import Introducao from "./secoes/Introducao";
-import Pecas from "./secoes/Pecas"
-import Movimentos from "./secoes/Movimentos";
-import Etapas from "./secoes/Etapas";
-import Comentarios from "./secoes/Comentarios";
+import Introducao from "../secoes/Introducao";
+import Pecas from "../secoes/Pecas"
+import Movimentos from "../secoes/Movimentos";
+import Etapas from "../secoes/Etapas";
+import Comentarios from "../secoes/Comentarios";
 
 function Article({ props }) {
     return (

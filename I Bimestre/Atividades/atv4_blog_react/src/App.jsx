@@ -1,10 +1,10 @@
 import "./App.css";
 
-import Header from "./componentes/Header";
-import Navigation from "./componentes/Navigation";
-import Article from "./componentes/Article";
-import Sidebar from "./componentes/Sidebar";
-import Footer from "./componentes/Footer";
+import Header from "./componentes/layout/Header";
+import Navigation from "./componentes/layout/Navigation";
+import Article from "./componentes/tutorial/Article";
+import Sidebar from "./componentes/layout/Sidebar";
+import Footer from "./componentes/layout/Footer";
 
 function App() {
 

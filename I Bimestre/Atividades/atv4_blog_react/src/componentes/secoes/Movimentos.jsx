@@ -1,4 +1,4 @@
-import Movimento from "../Movimento";
+import Movimento from "../tutorial/Movimento";
 
 function Movimentos() {
     return (

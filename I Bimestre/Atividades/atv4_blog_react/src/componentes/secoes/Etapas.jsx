@@ -6,8 +6,8 @@ import objetivoCinco from "../../imagens/objetivoCinco.png";
 import objetivoSeis from "../../imagens/objetivoSeis.png";
 import objetivoSete from "../../imagens/objetivoSete.png";
 
-import Objetivo from "../Objetivo";
-import EtapaTutorial from "../EtapaTutorial";
+import Objetivo from "../tutorial/Objetivo";
+import EtapaTutorial from "../tutorial/EtapaTutorial";
 
 function Etapas() {
     return (

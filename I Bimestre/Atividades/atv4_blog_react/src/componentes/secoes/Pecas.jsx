@@ -1,4 +1,4 @@
-import Peca from "../Peca";
+import Peca from "../tutorial/Peca";
 
 function Pecas() {
     return (
