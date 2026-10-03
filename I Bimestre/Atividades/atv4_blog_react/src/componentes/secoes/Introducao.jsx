@@ -1,4 +1,4 @@
-/* Para Aparecer no commit final*/
+/* Para Aparecer no commit de entrega*/
 function Introducao({ titulo, autor, data, conteudo }) {
     return (
         <section id="introducao">

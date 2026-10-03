@@ -1,3 +1,4 @@
+/* Para Aparecer no commit de entrega*/
 function Objetivo({ imagem, etapa, descricao }) {
     return (
         <article>

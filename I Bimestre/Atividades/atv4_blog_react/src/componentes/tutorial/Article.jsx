@@ -4,6 +4,7 @@ import Movimentos from "../secoes/Movimentos";
 import Etapas from "../secoes/Etapas";
 import Comentarios from "../secoes/Comentarios";
 
+/* Para Aparecer no commit de entrega*/
 function Article({ props }) {
     return (
         <article>

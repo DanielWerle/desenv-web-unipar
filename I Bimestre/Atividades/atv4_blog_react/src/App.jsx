@@ -6,6 +6,7 @@ import Article from "./componentes/tutorial/Article";
 import Sidebar from "./componentes/layout/Sidebar";
 import Footer from "./componentes/layout/Footer";
 
+/* Para Aparecer no commit de entrega*/
 function App() {
 
   const props = {

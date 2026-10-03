@@ -1,4 +1,4 @@
-/* Para Aparecer no commit final*/
+/* Para Aparecer no commit de entrega*/
 function Comentarios() {
     return (
         <section id="comentarios">

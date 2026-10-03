@@ -1,3 +1,4 @@
+/* Para Aparecer no commit de entrega*/
 function Movimento({ imagem, movimento, descricao }) {
     return (
         <article>

@@ -1,3 +1,4 @@
+/* Para Aparecer no commit de entrega*/
 function EtapaTurorial({ titulo, imagem, alt, descricao, formula, formula2, video }) {
     return (
         <section>

@@ -9,6 +9,7 @@ import objetivoSete from "../../imagens/objetivoSete.png";
 import Objetivo from "../tutorial/Objetivo";
 import EtapaTutorial from "../tutorial/EtapaTutorial";
 
+/* Para Aparecer no commit de entrega*/
 function Etapas() {
     return (
         <section id="etapas">

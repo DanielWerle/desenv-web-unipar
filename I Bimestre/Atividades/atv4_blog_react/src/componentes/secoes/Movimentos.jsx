@@ -1,5 +1,6 @@
 import Movimento from "../tutorial/Movimento";
 
+/* Para Aparecer no commit de entrega*/
 function Movimentos() {
     return (
         <section id="movimentos">

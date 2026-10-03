@@ -1,5 +1,6 @@
 import Peca from "../tutorial/Peca";
 
+/* Para Aparecer no commit de entrega*/
 function Pecas() {
     return (
         <section id="pecas">
